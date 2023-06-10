@@ -1,4 +1,4 @@
-*{
+* {
     background-color: black;
     color: white;
 }
@@ -8,23 +8,56 @@
 
 
 
-.container{
+.container {
     display: flex;
     gap: 230px;
     justify-content: center;
     padding: 300px;
     font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    
+
 }
 
-.container a{
+.container a {
     text-decoration: none;
-    
+
 }
 
-h1{
+h1 {
     text-align: center;
     font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* transiccion */
+
+.proyecto1 {
+    transform: rotate(0deg) scale(1);
+    transition: transform 1s linear;
+}
+
+.proyecto2 {
+    transform: rotate(0deg) scale(1);
+    transition: transform 1s linear;
+}
+
+.proyecto3 {
+    transform: rotate(0deg) scale(1);
+    transition: transform 1s linear;
+}
+
+.proyecto1:hover {
+    transform: rotate(0deg) scale(1.5);
+
+}
+
+.proyecto2:hover {
+    transform: rotate(0deg) scale(1.5);
+
+}
+
+.proyecto3:hover {
+    transform: rotate(0deg) scale(1.5);
+
 }
