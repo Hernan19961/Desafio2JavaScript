@@ -1,0 +1,64 @@
+*{
+    background-color: rgb(190, 210, 210);
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#img1{
+    width: 60%;
+    border-radius: 25px;
+}
+
+#img2 {
+    width: 80%;
+    border-radius: 20px;
+}
+
+#img3 {
+    width: 80%;
+    border-radius: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    
+    
+
+}
+.inputs{
+    text-align: center;
+}
+
+.card{
+    text-align: center;
+    
+}
+
+.inputs input{
+    width: 50%;
+    padding: 5px;
+
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+button{
+    padding: 15px;
+    width: 150px;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
