@@ -3,10 +3,10 @@
 function myFunction() {
 
     let imgs = document.querySelector("#imgs")
-    if (imgs.style.border === "2px solid red") {
-        imgs.style.border = "none";
+    if (imgs.style.border == "none") {
+        imgs.style.border = "2px solid red"
     } else {
-        imgs.style.border = "2px solid red";
+        imgs.style.border = "none"
     }
 }
 
